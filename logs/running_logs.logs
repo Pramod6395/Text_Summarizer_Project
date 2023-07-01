@@ -148,3 +148,356 @@ Source-Age: 0
 [2023-07-01 14:40:48,619: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x=========x]
+[2023-07-01 15:05:46,612: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:05:46,724: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:05:46,742: INFO: common: created directory at: artifacts]
+[2023-07-01 15:05:46,838: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:07:33,634: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:07:33,641: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:07:33,642: INFO: common: created directory at: artifacts]
+[2023-07-01 15:07:33,642: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:08:45,076: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:08:45,078: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:08:45,078: INFO: common: created directory at: artifacts]
+[2023-07-01 15:08:45,079: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:08:57,717: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:08:57,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:08:57,723: INFO: common: created directory at: artifacts]
+[2023-07-01 15:08:57,724: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:10:53,231: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:10:53,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:10:53,234: INFO: common: created directory at: artifacts]
+[2023-07-01 15:10:53,235: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:22:25,925: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:22:25,927: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:22:25,929: INFO: common: created directory at: artifacts]
+[2023-07-01 15:22:25,930: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:34:40,744: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:34:40,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:34:40,748: INFO: common: created directory at: artifacts]
+[2023-07-01 15:34:40,749: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:37:14,010: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:37:14,012: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:37:14,013: INFO: common: created directory at: artifacts]
+[2023-07-01 15:37:14,014: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 15:38:58,228: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 15:38:58,230: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 15:38:58,231: INFO: common: created directory at: artifacts]
+[2023-07-01 15:38:58,232: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 16:11:46,403: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:11:46,505: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:11:46,543: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:11:46,682: INFO: common: created directory at: artifacts]
+[2023-07-01 16:11:46,682: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:11:53,409: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AE9C:67FE:19D648:254FE4:64A002EB
+Accept-Ranges: bytes
+Date: Sat, 01 Jul 2023 10:41:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100030-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1688208108.043096,VS0,VE550
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 34405c59171df2b5311acab909c4cafc466dcd1b
+Expires: Sat, 01 Jul 2023 10:46:48 GMT
+Source-Age: 0
+
+]
+[2023-07-01 16:11:53,555: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:11:53,556: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:11:53,557: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:11:53,557: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:11:53,558: INFO: common: created directory at: artifacts]
+[2023-07-01 16:11:53,558: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:11:53,558: ERROR: main: 'DataValiadtion' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    data_ingestion.main()
+  File "/home/pramod/anaconda3/envs/textSumEnv/lib/python3.8/site-packages/textSummarizer/pipeline/stage_02_data_validation.py", line 14, in main
+    data_validation.download_file()
+AttributeError: 'DataValiadtion' object has no attribute 'download_file'
+[2023-07-01 16:13:33,011: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:13:33,029: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:13:33,067: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:13:33,067: INFO: common: created directory at: artifacts]
+[2023-07-01 16:13:33,068: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:13:40,638: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D3D4:0992:680B99:7B2117:64A00356
+Accept-Ranges: bytes
+Date: Sat, 01 Jul 2023 10:43:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10234-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1688208214.017290,VS0,VE1596
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8c9906727907bdcf2199acea2024d98bcb92560c
+Expires: Sat, 01 Jul 2023 10:48:35 GMT
+Source-Age: 1
+
+]
+[2023-07-01 16:13:40,800: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:13:40,800: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:13:40,802: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:13:40,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:13:40,802: INFO: common: created directory at: artifacts]
+[2023-07-01 16:13:40,803: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:13:40,803: ERROR: main: 'DataValiadtion' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    data_validation.main()
+  File "/home/pramod/anaconda3/envs/textSumEnv/lib/python3.8/site-packages/textSummarizer/pipeline/stage_02_data_validation.py", line 14, in main
+    data_validation.download_file()
+AttributeError: 'DataValiadtion' object has no attribute 'download_file'
+[2023-07-01 16:15:41,208: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:15:41,224: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:15:41,260: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:15:41,298: INFO: common: created directory at: artifacts]
+[2023-07-01 16:15:41,299: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:15:52,860: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AE9C:67FE:19D648:254FE4:64A002EB
+Accept-Ranges: bytes
+Date: Sat, 01 Jul 2023 10:45:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100027-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1688208342.306521,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 406806b5c7ed614aa909db3ab4d28a4dc62d6cb8
+Expires: Sat, 01 Jul 2023 10:50:42 GMT
+Source-Age: 234
+
+]
+[2023-07-01 16:15:53,004: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:15:53,004: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:15:53,006: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:15:53,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:15:53,006: INFO: common: created directory at: artifacts]
+[2023-07-01 16:15:53,006: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:15:53,007: ERROR: main: 'DataValiadtion' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    data_validation.main()
+  File "/home/pramod/anaconda3/envs/textSumEnv/lib/python3.8/site-packages/textSummarizer/pipeline/stage_02_data_validation.py", line 14, in main
+    data_validation.download_file()
+AttributeError: 'DataValiadtion' object has no attribute 'download_file'
+[2023-07-01 16:18:18,288: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:18:18,352: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:18:18,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:18:18,378: INFO: common: created directory at: artifacts]
+[2023-07-01 16:18:18,378: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:18:18,379: INFO: data_ingestion: File already exists of size :~ 7718 KB]
+[2023-07-01 16:18:18,804: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:18:18,804: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:18:18,807: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:18:18,808: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:18:18,808: INFO: common: created directory at: artifacts]
+[2023-07-01 16:18:18,808: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:18:18,809: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:18:42,158: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:18:42,159: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:18:42,160: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:18:42,198: INFO: common: created directory at: artifacts]
+[2023-07-01 16:18:42,198: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:18:49,417: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D3D4:0992:680B99:7B2117:64A00356
+Accept-Ranges: bytes
+Date: Sat, 01 Jul 2023 10:48:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10237-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1688208524.718819,VS0,VE265
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4e709d2b8bfbb57fb6152b9cdf9e1f8aa0a6400b
+Expires: Sat, 01 Jul 2023 10:53:43 GMT
+Source-Age: 0
+
+]
+[2023-07-01 16:18:49,569: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:18:49,570: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:18:49,571: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:18:49,572: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:18:49,573: INFO: common: created directory at: artifacts]
+[2023-07-01 16:18:49,573: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:18:49,574: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:25:45,280: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:25:45,371: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:25:45,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:25:45,441: INFO: common: created directory at: artifacts]
+[2023-07-01 16:25:45,480: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:25:52,329: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D3D4:0992:680B99:7B2117:64A00356
+Accept-Ranges: bytes
+Date: Sat, 01 Jul 2023 10:55:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10223-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1688208947.591211,VS0,VE1065
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d628585e0615ae8c4e0d267151de185e50dbd3e1
+Expires: Sat, 01 Jul 2023 11:00:47 GMT
+Source-Age: 0
+
+]
+[2023-07-01 16:25:52,525: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:25:52,525: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:25:52,525: ERROR: main: 'DataValidationTrainingPipeline' object has no attribute 'data_validation']
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    data_validation.data_validation.validate_all_files_exist()
+AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'data_validation'
+[2023-07-01 16:26:48,170: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:26:48,172: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:26:48,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:26:48,173: INFO: common: created directory at: artifacts]
+[2023-07-01 16:26:48,173: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:26:48,173: INFO: data_ingestion: File already exists of size :~ 7718 KB]
+[2023-07-01 16:26:48,477: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:26:48,478: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:26:48,478: ERROR: main: 'DataValidationTrainingPipeline' object has no attribute 'validate_all_files_exist']
+Traceback (most recent call last):
+  File "main.py", line 24, in <module>
+    data_validation.validate_all_files_exist()
+AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'validate_all_files_exist'
+[2023-07-01 16:31:38,372: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:31:38,478: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:31:38,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:31:38,555: INFO: common: created directory at: artifacts]
+[2023-07-01 16:31:38,555: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:31:38,555: INFO: data_ingestion: File already exists of size :~ 7718 KB]
+[2023-07-01 16:31:38,926: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:31:38,927: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:31:38,932: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:31:38,934: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:31:38,934: INFO: common: created directory at: artifacts]
+[2023-07-01 16:31:38,935: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:31:38,935: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:34:58,497: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-01 16:34:58,546: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:34:58,701: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:34:58,712: INFO: common: created directory at: artifacts]
+[2023-07-01 16:34:58,712: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-01 16:35:06,260: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AE9C:67FE:19D648:254FE4:64A002EB
+Accept-Ranges: bytes
+Date: Sat, 01 Jul 2023 11:05:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100033-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1688209500.019152,VS0,VE292
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d5ecd56040ff8d66c65e790afcf59bdfa63bacfd
+Expires: Sat, 01 Jul 2023 11:10:00 GMT
+Source-Age: 0
+
+]
+[2023-07-01 16:35:06,410: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========x]
+[2023-07-01 16:35:06,410: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-01 16:35:06,411: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-01 16:35:06,412: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-01 16:35:06,412: INFO: common: created directory at: artifacts]
+[2023-07-01 16:35:06,412: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-01 16:35:06,420: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x=========x]
