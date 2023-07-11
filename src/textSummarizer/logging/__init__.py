@@ -19,4 +19,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("teztSummarizerLogger")
+logger = logging.getLogger("textSummarizerLogger")
